@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autum Clothes</title>
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img
+                      src="img/clothing_logo_5.png"
+                      height="30"
+                      alt="logo"
+                      loading="lazy"
+                    />
+                  </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#navbarExample01"
+                  aria-controls="navbarExample01"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+                 </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav d-flex flex-row">
+                    <!-- Icons -->
+                    <li class="nav-item me-3 me-lg-0">
+                      <a class="nav-link" href="#">
+                        <span class="badge badge-pill bg-danger">1</span>
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                          </svg>                      </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                      <a class="nav-link" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg>
+                      </a>
+                    </li>
+                    <!-- Icon dropdown -->
+                    <li class="nav-item me-3 me-lg-0 dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-mdb-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      </svg>
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <div
+              class="p-5 text-center bg-image shadow-1-strong ms"
+              style="
+                background-image: url('img/logo.jfif');
+                height: 500px;
+              "
+            >
+              <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white">
+                    <h1 class="mb-3">Autumns Sale</h1>
+                    <h4 class="mb-3">Promotion up to 70%!</h4>
+                    <a class="btn btn-outline-light btn-lg" href="#!" role="button" id="btn" onclick
+                      >See the promosional offer
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-gem" viewBox="0 0 16 16">
+                        <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785l-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004l.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495L8 13.366l2.532-7.876-5.062.005zm-1.371-.999l-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817l5.123-6.83-2.928.002-2.195 6.828z"/>
+                      </svg>
+                      </a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Background image -->
+          </header>
+    </header>
+    <main>
+      <section class="options">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">Categories: </a>
+
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupport"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupport">
+              <!-- Left links -->
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >All</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >T-shirt</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Sport</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Skirts</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex input-group w-auto">
+                <input
+                  type="search"
+                  class="form-control"
+                  placeholder="Type query"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-primary"
+                  type="button"
+                  data-mdb-ripple-color="dark"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section id="all">
+          <div class="container pt-5">
+              <div class="row justify-content-center align-items-center gy-3">
+                  <div class="col-md-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                          <img
+                            src="img/1.jfif"
+                            class="img-fluid"
+                          />
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                          </a>
+                        </div>
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Product name</h5>
+                          <p>$61.99</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                          </p>
+                          <a href="#!" class="btn btn-primary">Buy Now</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                          <img
+                            src="img/2.jfif"
+                            class="img-fluid"
+                          />
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                          </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Product name</h5>
+                            <p>$61.99</p>
+                            <p class="card-text">
+                              Some quick example text to build on the card title and make up the bulk of the
+                              card's content.
+                            </p>
+                            <a href="#!" class="btn btn-primary">Buy Now</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                          <img
+                            src="img/6.jfif"
+                            class="img-fluid"
+                          />
+                          <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                          </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Product name</h5>
+                            <p>$61.99</p>
+                            <p class="card-text">
+                              Some quick example text to build on the card title and make up the bulk of the
+                              card's content.
+                            </p>
+                            <a href="#!" class="btn btn-primary">Buy Now</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row justify-content-center align-items-center my-3 gy-3">
+                <div class="col-md-4">
+                  <div class="card">
+                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img
+                          src="img/7.jfif"
+                          class="img-fluid"
+                        />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                        </a>
+                      </div>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Product name</h5>
+                        <p>$61.99</p>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and make up the bulk of the
+                          card's content.
+                        </p>
+                        <a href="#!" class="btn btn-primary">Buy Now</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img
+                          src="img/10.jfif"
+                          class="img-fluid"
+                        />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                        </a>
+                      </div>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Product name</h5>
+                        <p>$61.99</p>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and make up the bulk of the
+                          card's content.
+                        </p>
+                        <a href="#!" class="btn btn-primary">Buy Now</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img
+                          src="img/9.jfif"
+                          class="img-fluid"
+                        />
+                        <a href="#!">
+                          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                        </a>
+                      </div>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Product name</h5>
+                        <p>$61.99</p>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and make up the bulk of the
+                          card's content.
+                        </p>
+                        <a href="#!" class="btn btn-primary">Buy Now</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="...">
+                <ul class="pagination pagination-circle d-flex justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">2 <span class="visually-hidden">(current)</span></a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            
+      </section>
+    </main>
+    <footer>
+        <!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer Content</h5>
+  
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+            voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-dark">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+  </footer>
+    </footer>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
